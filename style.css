@@ -56,10 +56,13 @@ h2 {
 img.img-fluid {
     float: right;
 }
-
+i.fa.fa-long-arrow-right {
+    float: right;
+}
 .image-zoom {
   position: relative;
   overflow: hidden;
+  border-radius: 25px;
 }
 
 .image-zoom img {
@@ -169,4 +172,23 @@ button.btn-outline-primary {
 button.btn-outline-primary:hover {
           background-color: #e0d6c2;
     color: black;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.hd {
+    margin-left: 50px;
+    width: 160px;
+    /* padding: 0.25rem 3.75rem; */
+}
+}
+
+span.bdr {
+    border-bottom: 1px solid #342415;
+    border-left: 1px solid #342415;
+    border-radius: 14px;
+    border-right: 1px solid #342415;
+    border-top: 1px solid #342415;
+    padding: 0px 5px 0px;
 }
